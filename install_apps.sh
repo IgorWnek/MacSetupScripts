@@ -19,12 +19,13 @@ apps=(
   todoist
   ferdi
   slack
+  karabiner-elements
 )
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "Installing apps with Cask..."
-brew cask install --appdir="/Applications" ${apps[@]}
+brew install --cask --appdir="/Applications" ${apps[@]}
 
 brew cask alfred link
 
