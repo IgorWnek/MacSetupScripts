@@ -14,7 +14,7 @@ apps=(
   spotify
   docker
   iterm2
-  zoomus
+  zoom
   suspicious-package
   todoist
   ferdi
