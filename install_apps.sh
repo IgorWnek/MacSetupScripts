@@ -20,13 +20,12 @@ apps=(
   ferdi
   slack
   karabiner-elements
+  1password
 )
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "Installing apps with Cask..."
 brew install --cask --appdir="/Applications" ${apps[@]}
-
-brew cask alfred link
 
 brew cleanup
