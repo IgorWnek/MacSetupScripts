@@ -28,4 +28,6 @@ apps=(
 echo "Installing apps with Cask..."
 brew install --cask --appdir="/Applications" ${apps[@]}
 
+brew install node
+
 brew cleanup
