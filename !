@@ -1,0 +1,2 @@
+source $(brew --prefix powerlevel10k)/powerlevel10k.zsh-theme /Users/igor/.zshrc
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh /Users/igor/.zshrc
